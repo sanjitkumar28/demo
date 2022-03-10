@@ -1,0 +1,49 @@
+.navbar>nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between ;
+}
+nav h1{
+    margin-left:2rem;
+}
+ul{
+    display:flex;
+    margin-right: 2rem;
+}
+li{
+    list-style: none;
+    margin-left:2rem;
+    /* margin-right:1.5rem; */
+    /* we can also set display ul as flex*/
+}
+a{
+    text-decoration: none;
+}
+a:link,a:visited{
+    color:black
+}
+.lap-image img{ 
+    width:90vw;
+    margin-left:4vw;
+    margin-right:4vw;
+}
+
+/*  skills */
+.skills{
+  display: flex;
+}
+.skills > div{
+    margin-left: 1vw;
+    text-align: center;
+    margin-top:1vh;
+    width:30vw;
+}
+.footer{
+    height:80px;
+    background-color: black;
+    text-align: center;
+}
+.footer p{
+    color:white;
+    font-size:25px;
+}
